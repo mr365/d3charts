@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title class="D3 Graphic"></title>	
-	<link rel="stylesheet" href="_/base.css">
+
+<link rel="stylesheet" href="base.css">
 	<link rel="stylesheet" href="style.css">
+
+
+  <script src="js/angular.min.js"></script>
+ 
+    <script src="js/d3.min.js"></script>
+   <script src="js/app.js"></script>
+
 </head>
-<body>
+<body ng-app="myApp">
+	
+	<my-chart></my-chart>
+
 	<div class="container">
 		<h2> D3Graphic </h2>
 	<section id="chart"></section> 
 
 	</div>
 	
-	<script src="_/d3.min.js"></script>
-	<script src="script.js"></script>
-</body>
 	
+	<script src="script.js"></script>
+	
+
+</body>
 </html>
